@@ -1,0 +1,16 @@
+{
+  "name": "webpack-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack index.js output.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "binary-module": "github:brian-gates/simple-binary-reference",
+    "webpack-node-externals": "^1.6.0"
+  }
+}
